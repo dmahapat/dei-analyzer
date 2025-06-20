@@ -1,0 +1,51 @@
+employee_id,sentiment,summary,inclusion_score
+E001,Neutral,The employee is satisfied with their work but feels that promotions are not happening at a satisfactory pace.,50
+E002,Negative,The employee feels that they are often not listened to or considered in discussions.,50
+E003,Neutral,The employee is pointing out a lack of regional representation at higher levels within the organization.,50
+E004,Positive,The employee finds mentorship programs helpful.,50
+E005,"The feedback provided by the employee indicates a negative sentiment towards the performance review process, suggesting a perception of bias. To address this feedback and improve inclusiveness, it would be important for the organization to review and potentially revise its performance review processes to ensure fairness and objectivity. A rating of 70 suggests that there is room for improvement in creating a more inclusive and unbiased performance evaluation system.",The employee feels that the performance reviews were biased.,50
+E006,Positive,The employee feels that their efforts are recognized fairly by the organization.,50
+E007,Positive,The feedback suggests a desire for increased representation of women in leadership positions within the organization.,50
+E008,Positive,The employee feels that the work culture is strong and positive.,50
+E009,Neutral,The employee is finding it challenging to connect with mentors who they can relate to.,50
+E010,Positive,The employee appreciates the diversity within their team.,50
+E011,Positive,The employee feels that their manager is supportive.,50
+E012,Negative,The employee is expressing dissatisfaction with the lack of representation from central states in senior roles within the organization.,50
+E013,Positive,The employee feels that the environment is inclusive.,50
+E014,Negative,The employee feels that there is a lack of clarity in role expectations.,50
+E015,Positive,The team collaborates effectively.,50
+E016,Negative,The employee feels that they are frequently not considered for projects.,50
+E017,Positive,The employee feels that innovation is supported and promoted within the organization.,50
+E018,Negative,"The employee felt unsupported by their team, indicating a lack of assistance or collaboration.",50
+E019,Positive,The employee appreciates the opportunities for exposure and growth provided by the organization.,50
+E020,Neutral,The feedback highlights the observation that there are still fewer women in tech leadership positions.,50
+E021,Positive,The employee feels that the team is inclusive overall.,50
+E022,Positive,"The employee appreciates the focus on Diversity, Equity, and Inclusion in the planning process.",50
+E023,Positive,The employee feedback indicates that training has positively impacted their awareness.,50
+E024,Positive,The employee appreciates the flexibility in their work arrangements.,50
+E025,Negative,The employee feels that the feedback process is unclear and lacks clarity.,50
+E026,Positive,The employee appreciates the responsiveness of the leadership within the organization.,50
+E027,Neutral,The employee feels that the compensation they receive is fair.,50
+E028,Negative,The employee feels that the recruitment panel showed bias in their decision-making process.,50
+E029,Positive,The employee feels that top management is inclusive.,50
+E030,Positive,The employee found the training beneficial for boosting their confidence.,50
+E031,Positive,The employee appreciates the open and positive culture within the organization.,50
+E032,Positive,The employee feels that the work-life balance is healthy.,50
+E033,Positive,The employee feedback suggests that the leadership within the organization is diverse.,50
+E034,Positive,The employee feedback states that the HR team is inclusive.,50
+E035,Negative,The employee feedback indicates that there is low team morale within the organization.,50
+E036,Neutral,The feedback suggests a desire for more women in leadership positions within the organization.,50
+E037,Neutral,The feedback indicates that the opportunities provided to employees are perceived as equal.,50
+E038,Neutral,The feedback suggests that there is a need for more diverse voices in campaigns.,50
+E039,Negative,"The employee feels that the processes in the organization are bureaucratic, indicating frustration or dissatisfaction with the current system.",50
+E040,Neutral,"The feedback suggests that the work environment is inclusive, but the workload is stressful.",50
+E041,Negative,The employee feels that the leadership is not open or accessible.,50
+E042,"This feedback indicates a concern about gender diversity at higher levels within the organization. The sentiment is neutral as it simply states a fact without expressing a positive or negative opinion. The feedback suggests that there is a lack of representation of women at the L6+ level, which could indicate potential issues with gender equality and advancement opportunities. To address this feedback, the organization should consider implementing initiatives to promote gender diversity and inclusivity at all levels. The inclusiveness rating is 80, as there is room for improvement in ensuring equal opportunities for women to progress to leadership positions within the company.",The feedback highlights the underrepresentation of women at the L6+ level within the organization.,50
+E043,Positive,The employee feedback indicates that the team lead values diversity within the team.,50
+E044,Negative,The employee feels that there is a lack of mentors available to provide guidance and support.,50
+E045,Neutral,The employee feedback indicates that DEI programs are currently active within the organization.,50
+E046,Negative,The employee feels that shift preferences are not fair.,50
+E047,Positive,The employee feels that the environment is respectful.,50
+E048,"The sentiment of the feedback is neutral, simply stating a fact. The feedback indicates a lack of gender diversity in the tech team, as the employee is the only woman. To improve inclusiveness, the team should focus on promoting diversity and inclusion initiatives to create a more balanced and inclusive work environment. The rating is 50 as there is room for improvement in fostering a more inclusive workplace for women in the tech team.",The feedback highlights the fact that the employee is the only woman in the tech team.,50
+E049,Neutral,The employee suggests that the feedback system can be enhanced.,50
+E050,Negative,Employee finds the promotion process unclear.,50
