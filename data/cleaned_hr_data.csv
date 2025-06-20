@@ -1,0 +1,51 @@
+employee_id,gender,age,state_of_origin,department,salary,job_level,performance_score,tenure_years,exit_status,feedback_text
+E001,Male,29,Karnataka,Engineering,820000,L4,Exceeds Expectations,3,Active,Work is good but promotions are slow.
+E002,Female,35,Delhi,Marketing,750000,L5,Meets Expectations,5,Active,Often feel unheard in discussions.
+E003,Male,41,Bihar,Finance,900000,L6,Below Expectations,8,Exited,Lack of regional representation at higher levels.
+E004,Non-binary,28,Telangana,Engineering,850000,L4,Meets Expectations,4,Active,Mentorship programs are helpful.
+E005,Female,32,West Bengal,HR,780000,L5,Exceeds Expectations,6,Exited,Performance reviews felt biased.
+E006,Male,38,Tamil Nadu,Engineering,960000,L6,Exceeds Expectations,9,Active,Efforts are acknowledged fairly.
+E007,Female,27,Odisha,Marketing,690000,L3,Meets Expectations,2,Active,More women needed in leadership.
+E008,Male,45,Maharashtra,Legal,1100000,L7,Exceeds Expectations,15,Active,Work culture is solid.
+E009,Female,30,Assam,Engineering,820000,L4,Meets Expectations,3,Active,Hard to find relatable mentors.
+E010,Male,34,Karnataka,Product,880000,L5,Meets Expectations,5,Active,Good team diversity.
+E011,Female,26,Himachal Pradesh,Customer Support,620000,L2,Meets Expectations,1,Active,Manager is supportive.
+E012,Male,36,Chhattisgarh,Finance,930000,L6,Exceeds Expectations,10,Exited,No one from central states in senior roles.
+E013,Non-binary,31,Gujarat,HR,770000,L4,Meets Expectations,4,Active,Environment feels inclusive.
+E014,Female,29,Uttarakhand,Engineering,840000,L4,Below Expectations,2,Active,Lack of clarity in role expectations.
+E015,Male,37,Punjab,Engineering,990000,L6,Exceeds Expectations,10,Active,Team collaborates effectively.
+E016,Female,42,Kerala,Marketing,870000,L6,Exceeds Expectations,12,Exited,Often overlooked for projects.
+E017,Male,28,Delhi,Product,850000,L4,Meets Expectations,3,Active,Innovation is encouraged.
+E018,Female,33,Jharkhand,Customer Support,700000,L4,Meets Expectations,6,Exited,Felt unsupported by team.
+E019,Male,40,Karnataka,Legal,1000000,L6,Exceeds Expectations,14,Active,Good exposure and growth.
+E020,Female,36,Maharashtra,Engineering,950000,L5,Meets Expectations,8,Active,Still fewer women in tech leadership.
+E021,Male,30,Andhra Pradesh,Finance,910000,L5,Meets Expectations,5,Active,Team is inclusive overall.
+E022,Female,34,Rajasthan,Marketing,790000,L5,Exceeds Expectations,7,Active,Good DEI focus in planning.
+E023,Male,38,Kerala,Engineering,970000,L6,Exceeds Expectations,10,Active,Training improved awareness.
+E024,Female,39,Karnataka,Product,890000,L6,Exceeds Expectations,11,Active,Flexible work is appreciated.
+E025,Male,32,West Bengal,Engineering,900000,L5,Below Expectations,4,Exited,Feedback process unclear.
+E026,Female,27,Odisha,Customer Support,650000,L3,Meets Expectations,2,Active,Responsive leadership.
+E027,Male,35,Haryana,Finance,920000,L6,Meets Expectations,9,Active,Compensation seems fair.
+E028,Female,31,Bihar,HR,760000,L4,Meets Expectations,5,Active,Recruitment panel seemed biased.
+E029,Male,45,Delhi,Legal,1150000,L7,Exceeds Expectations,18,Active,Top management is inclusive.
+E030,Female,33,Madhya Pradesh,Marketing,800000,L5,Meets Expectations,6,Active,Training helped confidence.
+E031,Male,39,Karnataka,Engineering,940000,L6,Exceeds Expectations,11,Active,Open and positive culture.
+E032,Female,36,Tamil Nadu,Product,870000,L5,Meets Expectations,8,Active,Work-life balance is healthy.
+E033,Male,42,Maharashtra,Engineering,990000,L6,Exceeds Expectations,15,Active,Leadership is diverse.
+E034,Female,30,Goa,HR,770000,L4,Meets Expectations,4,Active,HR team is inclusive.
+E035,Male,29,Jharkhand,Customer Support,680000,L3,Below Expectations,2,Exited,Low team morale.
+E036,Female,41,Gujarat,Finance,930000,L6,Meets Expectations,13,Active,Need women at top roles.
+E037,Male,34,Kerala,Engineering,910000,L5,Exceeds Expectations,7,Active,Opportunities are equal.
+E038,Female,37,Rajasthan,Marketing,830000,L5,Meets Expectations,9,Active,Campaigns need diverse voices.
+E039,Male,31,Karnataka,Legal,970000,L6,Meets Expectations,6,Active,Processes are bureaucratic.
+E040,Female,35,Tamil Nadu,Engineering,950000,L5,Exceeds Expectations,9,Active,Inclusive but stressful workload.
+E041,Male,33,Uttar Pradesh,Finance,880000,L5,Below Expectations,5,Exited,Leadership felt closed off.
+E042,Female,38,Kerala,Engineering,940000,L6,Meets Expectations,11,Active,Women underrepresented at L6+.
+E043,Male,40,Haryana,Engineering,990000,L6,Exceeds Expectations,13,Active,Team lead values diversity.
+E044,Female,28,Maharashtra,Product,860000,L4,Meets Expectations,3,Active,Lack of mentors.
+E045,Male,36,West Bengal,Marketing,850000,L5,Exceeds Expectations,10,Active,DEI programs are active.
+E046,Female,39,Assam,Customer Support,730000,L4,Meets Expectations,9,Active,Shift preferences not fair.
+E047,Male,29,Chhattisgarh,HR,780000,L4,Meets Expectations,4,Active,Respectful environment.
+E048,Female,32,Andhra Pradesh,Engineering,930000,L5,Exceeds Expectations,7,Active,Only woman in tech team.
+E049,Male,35,Uttarakhand,Finance,900000,L5,Meets Expectations,6,Active,Feedback system can improve.
+E050,Female,31,Manipur,Marketing,800000,L5,Below Expectations,5,Exited,Promotion process unclear.
