@@ -1,0 +1,51 @@
+employee_id,gender,age,state_of_origin,department,salary,job_level,performance_score,tenure_years,exit_status,feedback_text,promotion_eligible
+E001,Male,29,Karnataka,Engineering,820000,L4,4,3,Active,Work is good but promotions are slow.,1
+E002,Female,35,Delhi,Marketing,750000,L5,5,5,Active,Often feel unheard in discussions.,0
+E003,Male,41,Bihar,Finance,900000,L6,3,8,Exited,Lack of regional representation at higher levels.,0
+E004,Non-binary,28,Telangana,Engineering,850000,L4,5,4,Active,Mentorship programs are helpful.,1
+E005,Female,32,West Bengal,HR,780000,L5,5,6,Exited,Performance reviews felt biased.,1
+E006,Male,38,Tamil Nadu,Engineering,960000,L6,2,9,Active,Efforts are acknowledged fairly.,0
+E007,Female,27,Odisha,Marketing,690000,L3,3,2,Active,More women needed in leadership.,1
+E008,Male,45,Maharashtra,Legal,1100000,L7,3,15,Active,Work culture is solid.,1
+E009,Female,30,Assam,Engineering,820000,L4,3,3,Active,Hard to find relatable mentors.,1
+E010,Male,34,Karnataka,Product,880000,L5,5,5,Active,Good team diversity.,0
+E011,Female,26,Himachal Pradesh,Customer Support,620000,L2,4,1,Active,Manager is supportive.,0
+E012,Male,36,Chhattisgarh,Finance,930000,L6,3,10,Exited,No one from central states in senior roles.,1
+E013,Non-binary,31,Gujarat,HR,770000,L4,5,4,Active,Environment feels inclusive.,0
+E014,Female,29,Uttarakhand,Engineering,840000,L4,2,2,Active,Lack of clarity in role expectations.,0
+E015,Male,37,Punjab,Engineering,990000,L6,4,10,Active,Team collaborates effectively.,1
+E016,Female,42,Kerala,Marketing,870000,L6,2,12,Exited,Often overlooked for projects.,0
+E017,Male,28,Delhi,Product,850000,L4,4,3,Active,Innovation is encouraged.,1
+E018,Female,33,Jharkhand,Customer Support,700000,L4,5,6,Exited,Felt unsupported by team.,1
+E019,Male,40,Karnataka,Legal,1000000,L6,1,14,Active,Good exposure and growth.,1
+E020,Female,36,Maharashtra,Engineering,950000,L5,4,8,Active,Still fewer women in tech leadership.,1
+E021,Male,30,Andhra Pradesh,Finance,910000,L5,2,5,Active,Team is inclusive overall.,0
+E022,Female,34,Rajasthan,Marketing,790000,L5,5,7,Active,Good DEI focus in planning.,1
+E023,Male,38,Kerala,Engineering,970000,L6,4,10,Active,Training improved awareness.,1
+E024,Female,39,Karnataka,Product,890000,L6,1,11,Active,Flexible work is appreciated.,0
+E025,Male,32,West Bengal,Engineering,900000,L5,1,4,Exited,Feedback process unclear.,0
+E026,Female,27,Odisha,Customer Support,650000,L3,3,2,Active,Responsive leadership.,0
+E027,Male,35,Haryana,Finance,920000,L6,3,9,Active,Compensation seems fair.,0
+E028,Female,31,Bihar,HR,760000,L4,2,5,Active,Recruitment panel seemed biased.,1
+E029,Male,45,Delhi,Legal,1150000,L7,4,18,Active,Top management is inclusive.,1
+E030,Female,33,Madhya Pradesh,Marketing,800000,L5,4,6,Active,Training helped confidence.,1
+E031,Male,39,Karnataka,Engineering,940000,L6,3,11,Active,Open and positive culture.,0
+E032,Female,36,Tamil Nadu,Product,870000,L5,4,8,Active,Work-life balance is healthy.,1
+E033,Male,42,Maharashtra,Engineering,990000,L6,4,15,Active,Leadership is diverse.,1
+E034,Female,30,Goa,HR,770000,L4,1,4,Active,HR team is inclusive.,1
+E035,Male,29,Jharkhand,Customer Support,680000,L3,3,2,Exited,Low team morale.,0
+E036,Female,41,Gujarat,Finance,930000,L6,5,13,Active,Need women at top roles.,0
+E037,Male,34,Kerala,Engineering,910000,L5,3,7,Active,Opportunities are equal.,0
+E038,Female,37,Rajasthan,Marketing,830000,L5,5,9,Active,Campaigns need diverse voices.,1
+E039,Male,31,Karnataka,Legal,970000,L6,1,6,Active,Processes are bureaucratic.,0
+E040,Female,35,Tamil Nadu,Engineering,950000,L5,2,9,Active,Inclusive but stressful workload.,0
+E041,Male,33,Uttar Pradesh,Finance,880000,L5,4,5,Exited,Leadership felt closed off.,1
+E042,Female,38,Kerala,Engineering,940000,L6,1,11,Active,Women underrepresented at L6+.,0
+E043,Male,40,Haryana,Engineering,990000,L6,4,13,Active,Team lead values diversity.,1
+E044,Female,28,Maharashtra,Product,860000,L4,2,3,Active,Lack of mentors.,0
+E045,Male,36,West Bengal,Marketing,850000,L5,2,10,Active,DEI programs are active.,0
+E046,Female,39,Assam,Customer Support,730000,L4,1,9,Active,Shift preferences not fair.,0
+E047,Male,29,Chhattisgarh,HR,780000,L4,2,4,Active,Respectful environment.,0
+E048,Female,32,Andhra Pradesh,Engineering,930000,L5,5,7,Active,Only woman in tech team.,1
+E049,Male,35,Uttarakhand,Finance,900000,L5,2,6,Active,Feedback system can improve.,1
+E050,Female,31,Manipur,Marketing,800000,L5,4,5,Exited,Promotion process unclear.,1
