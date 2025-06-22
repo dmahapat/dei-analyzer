@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from insight_utils import show_pay_gap, show_state_diversity, generate_ai_suggestions
 from bias_detection_tab import show_bias_detection
+from state_cluster_tab import show_state_clusters
 
 # ✅ Initial Setup
 st.set_page_config(page_title="DEI Analyzer", layout="wide")
@@ -25,7 +26,8 @@ df, dei_df, feedback_df, promotion_df = load_data()
 tab = st.sidebar.radio("Choose a section", [
     "📊 DEI Insights Dashboard",
     "🤖 AI-Based DEI Suggestions",
-    "🏆 Promotion Bias Detector"
+    "🏆 Promotion Bias Detector",
+    "📍 Regional Diversity Clusters"
 ])
 
 # ============================================================
@@ -100,3 +102,10 @@ elif tab == "🤖 AI-Based DEI Suggestions":
 # ============================================================
 elif tab == "🏆 Promotion Bias Detector":
     show_bias_detection()
+
+# ============================================================
+# 📍 TAB 4: Regional Diversity Clusters
+# ============================================================
+
+elif tab == "📍 Regional Diversity Clusters":
+    show_state_clusters()
