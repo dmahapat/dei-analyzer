@@ -50,7 +50,7 @@ def show_state_clusters():
     st.write("⚠️ Grouped Features Preview", state_summary)
 
 
-    st.dataframe(state_summary)
+    
 
     # Normalize features for clustering
     scaler = StandardScaler()

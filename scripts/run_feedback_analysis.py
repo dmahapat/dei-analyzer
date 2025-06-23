@@ -2,6 +2,9 @@
 
 import pandas as pd
 import time
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from models.feedback_summarizer import analyze_feedback
 
 df = pd.read_csv("data/cleaned_hr_data.csv")

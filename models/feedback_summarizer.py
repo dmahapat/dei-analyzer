@@ -44,7 +44,7 @@ def analyze_feedback(feedback_text):
                 sentiment = line.split(":")[-1].strip()
             elif "summary" in line.lower():
                 summary = line.split(":")[-1].strip()
-            elif "score" in line.lower():
+            elif "rating" in line.lower():
                 score = int(''.join(filter(str.isdigit, line)))
 
         return (sentiment, summary, score)
