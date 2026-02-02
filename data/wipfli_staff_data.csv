@@ -1,0 +1,101 @@
+employee_id,gender,department,job_level,years_at_firm
+WIP-IN-001,Male,Audit,Senior Manager,12
+WIP-IN-002,Male,Audit,Manager,9
+WIP-IN-003,Female,Audit,Senior Associate,4
+WIP-IN-004,Male,Audit,Associate,2
+WIP-IN-005,Female,Audit,Associate,1
+WIP-IN-006,Male,Audit,Director,15
+WIP-IN-007,Female,Audit,Senior Manager,10
+WIP-IN-008,Female,Audit,Senior Associate,5
+WIP-IN-009,Male,Audit,Manager,8
+WIP-IN-010,Female,Audit,Associate,1
+WIP-IN-011,Male,Audit,Senior Associate,6
+WIP-IN-012,Male,Audit,Manager,10
+WIP-IN-013,Female,Audit,Associate,2
+WIP-IN-014,Male,Audit,Director,18
+WIP-IN-015,Male,Audit,Senior Manager,13
+WIP-IN-016,Female,Audit,Senior Associate,3
+WIP-IN-017,Male,Audit,Associate,1
+WIP-IN-018,Female,Audit,Manager,6
+WIP-IN-019,Female,Audit,Associate,2
+WIP-IN-020,Male,Audit,Senior Associate,5
+WIP-IN-021,Male,Audit,Senior Manager,14
+WIP-IN-022,Female,Audit,Associate,1
+WIP-IN-023,Male,Audit,Manager,8
+WIP-IN-024,Male,Audit,Senior Associate,6
+WIP-IN-025,Female,Audit,Senior Associate,4
+WIP-IN-026,Male,Tax,Director,16
+WIP-IN-027,Male,Tax,Senior Manager,11
+WIP-IN-028,Female,Tax,Manager,7
+WIP-IN-029,Male,Tax,Manager,9
+WIP-IN-030,Female,Tax,Senior Associate,4
+WIP-IN-031,Male,Tax,Senior Associate,5
+WIP-IN-032,Female,Tax,Associate,2
+WIP-IN-033,Male,Tax,Associate,1
+WIP-IN-034,Female,Tax,Senior Associate,3
+WIP-IN-035,Female,Tax,Senior Manager,9
+WIP-IN-036,Male,Tax,Manager,8
+WIP-IN-037,Female,Tax,Associate,1
+WIP-IN-038,Male,Tax,Senior Associate,6
+WIP-IN-039,Female,Tax,Manager,5
+WIP-IN-040,Male,Tax,Director,14
+WIP-IN-041,Male,Tax,Senior Manager,10
+WIP-IN-042,Female,Tax,Senior Associate,3
+WIP-IN-043,Male,Tax,Manager,7
+WIP-IN-044,Female,Tax,Associate,1
+WIP-IN-045,Male,Tax,Senior Associate,5
+WIP-IN-046,Male,Tax,Manager,9
+WIP-IN-047,Female,Tax,Associate,2
+WIP-IN-048,Male,Tax,Senior Associate,4
+WIP-IN-049,Female,Tax,Director,12
+WIP-IN-050,Female,Tax,Associate,1
+WIP-IN-051,Male,Consulting,Director,17
+WIP-IN-052,Male,Consulting,Senior Manager,14
+WIP-IN-053,Male,Consulting,Senior Manager,11
+WIP-IN-054,Female,Consulting,Manager,6
+WIP-IN-055,Male,Consulting,Manager,8
+WIP-IN-056,Male,Consulting,Manager,9
+WIP-IN-057,Female,Consulting,Senior Associate,4
+WIP-IN-058,Male,Consulting,Senior Associate,5
+WIP-IN-059,Female,Consulting,Associate,2
+WIP-IN-060,Male,Consulting,Associate,3
+WIP-IN-061,Male,Consulting,Senior Associate,6
+WIP-IN-062,Female,Consulting,Associate,1
+WIP-IN-063,Male,Consulting,Senior Associate,5
+WIP-IN-064,Male,Consulting,Manager,7
+WIP-IN-065,Female,Consulting,Senior Associate,3
+WIP-IN-066,Male,Consulting,Senior Manager,12
+WIP-IN-067,Male,Consulting,Senior Associate,4
+WIP-IN-068,Female,Consulting,Manager,5
+WIP-IN-069,Male,Consulting,Associate,2
+WIP-IN-070,Male,Consulting,Manager,8
+WIP-IN-071,Female,Consulting,Associate,1
+WIP-IN-072,Male,Consulting,Senior Associate,5
+WIP-IN-073,Male,Consulting,Director,15
+WIP-IN-074,Female,Consulting,Associate,2
+WIP-IN-075,Female,Consulting,Senior Manager,9
+WIP-IN-076,Male,IT,Director,16
+WIP-IN-077,Male,IT,Senior Manager,13
+WIP-IN-078,Male,IT,Senior Manager,11
+WIP-IN-079,Male,IT,Manager,9
+WIP-IN-080,Male,IT,Manager,8
+WIP-IN-081,Female,IT,Manager,6
+WIP-IN-082,Female,IT,Senior Associate,4
+WIP-IN-083,Male,IT,Senior Associate,6
+WIP-IN-084,Male,IT,Senior Associate,5
+WIP-IN-085,Male,IT,Senior Associate,5
+WIP-IN-086,Female,IT,Senior Associate,3
+WIP-IN-087,Male,IT,Associate,2
+WIP-IN-088,Male,IT,Associate,1
+WIP-IN-089,Female,IT,Associate,1
+WIP-IN-090,Male,IT,Associate,2
+WIP-IN-091,Male,IT,Senior Associate,4
+WIP-IN-092,Male,IT,Manager,8
+WIP-IN-093,Female,IT,Associate,1
+WIP-IN-094,Male,IT,Senior Associate,5
+WIP-IN-095,Male,IT,Associate,3
+WIP-IN-096,Male,IT,Senior Manager,10
+WIP-IN-097,Female,IT,Associate,2
+WIP-IN-098,Male,IT,Senior Associate,6
+WIP-IN-099,Male,IT,Associate,1
+WIP-IN-100,Male,IT,Manager,7
