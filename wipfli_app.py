@@ -30,6 +30,114 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# ── Wipfli brand fonts & global CSS ─────────────────────────────────────────
+st.markdown(
+    """
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Headings → Montserrat */
+        h1, h2, h3, h4, h5, h6,
+        .wipfli-header, .wipfli-footer {
+            font-family: 'Montserrat', sans-serif !important;
+        }
+        /* Body text → Lora (scoped to content, not Streamlit internals) */
+        .stMarkdown p, .stMarkdown li,
+        .stMarkdown td, .stMarkdown th,
+        .stText {
+            font-family: 'Lora', serif !important;
+        }
+        /* Expander headers — prevent emoji/text overlap */
+        .streamlit-expanderHeader,
+        .streamlit-expanderHeader p,
+        [data-testid="stExpander"] summary {
+            line-height: 1.6 !important;
+            font-family: 'Montserrat', sans-serif !important;
+            overflow: visible !important;
+        }
+        [data-testid="stExpander"] summary span {
+            vertical-align: middle !important;
+        }
+        /* Sticky header wrapper */
+        .wipfli-header-wrap {
+            position: sticky;
+            top: 0;
+            z-index: 99;
+            margin: -1rem -1rem 1.5rem -1rem;
+        }
+        /* Header bar */
+        .wipfli-header-bar {
+            background-color: #0050ff;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            border-radius: 0.5rem 0.5rem 0 0;
+        }
+        .wipfli-header-bar .wordmark {
+            font-family: 'Montserrat', sans-serif !important;
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: #FFFFFF;
+            letter-spacing: 0.15em;
+        }
+        .wipfli-header-bar .label {
+            font-family: 'Montserrat', sans-serif !important;
+            font-weight: 400;
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.85);
+        }
+        .wipfli-header-subtitle {
+            background-color: #FFFFFF;
+            padding: 0.6rem 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            border-radius: 0 0 0.5rem 0.5rem;
+        }
+        .wipfli-header-subtitle p {
+            margin: 0;
+            font-family: 'Lora', serif !important;
+            font-size: 0.95rem;
+            color: #333333;
+        }
+        /* Sticky footer */
+        .wipfli-footer-bar {
+            position: sticky;
+            bottom: 0;
+            z-index: 99;
+            background-color: #1a1a2e;
+            padding: 0.8rem 2rem;
+            margin: 2rem -1rem -1rem -1rem;
+            border-radius: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .wipfli-footer-bar .footer-left,
+        .wipfli-footer-bar .footer-center,
+        .wipfli-footer-bar .footer-right {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 0.75rem;
+            color: #FFFFFF;
+        }
+        .wipfli-footer-bar .footer-center {
+            opacity: 0.7;
+        }
+        .wipfli-footer-bar .footer-right a {
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-left: 1rem;
+            opacity: 0.8;
+        }
+        .wipfli-footer-bar .footer-right a:hover {
+            text-decoration: underline;
+            opacity: 1;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # ── Paths & constants ────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent
 HANDBOOK_PATH = BASE_DIR / "data" / "Wipfli_DEI_Handbook.txt"
@@ -429,14 +537,21 @@ def render_sidebar() -> pd.DataFrame:
 def main():
     df = render_sidebar()
 
-    # ── Header ───────────────────────────────────────────────────────────
+    # ── Fixed Header ─────────────────────────────────────────────────────
     st.markdown(
-        "<h1 style='text-align:center'>Wipfli DEI Executive Report</h1>"
-        "<p style='text-align:center;opacity:0.6'>India Office (Pune / Bengaluru) "
-        "&mdash; RAG-Powered Policy Alignment Analysis</p>",
+        """
+        <div class="wipfli-header-wrap">
+            <div class="wipfli-header-bar">
+                <span class="wordmark">WIPFLI</span>
+                <span class="label">DEI Analyzer</span>
+            </div>
+            <div class="wipfli-header-subtitle">
+                <p>India Office (Pune / Bengaluru) &mdash; RAG-Powered Policy Alignment Analysis</p>
+            </div>
+        </div>
+        """,
         unsafe_allow_html=True,
     )
-    st.divider()
 
     # ── Build vector store & run analysis ────────────────────────────────
     store = build_vector_store()
@@ -552,13 +667,18 @@ def main():
                     "Claude API call failed — check your account balance or API key."
                 )
 
-    # ── Footer ───────────────────────────────────────────────────────────
-    st.divider()
+    # ── Fixed Footer ─────────────────────────────────────────────────────
     st.markdown(
-        "<div style='text-align:center;opacity:0.4;font-size:0.8rem;padding:1rem'>"
-        "Generated by Wipfli DEI RAG Analyzer &bull; Data is synthetic &bull; "
-        "Powered by FAISS + sentence-transformers + LangChain + Anthropic Claude"
-        "</div>",
+        """
+        <div class="wipfli-footer-bar">
+            <span class="footer-left">&copy; 2026 Wipfli LLP. All rights reserved.</span>
+            <span class="footer-center">Data is synthetic &bull; Powered by FAISS + sentence-transformers + LangChain + Anthropic Claude</span>
+            <span class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </span>
+        </div>
+        """,
         unsafe_allow_html=True,
     )
 
